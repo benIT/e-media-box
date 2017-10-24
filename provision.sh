@@ -13,7 +13,7 @@ sudo apt-get upgrade
 #utilities
 ###############################################################
 echo "installing utilities : $(date)"
-sudo apt-get install -y git vim curl htop
+sudo apt-get install -y git vim curl htop zip unzip
 curl -s https://getcomposer.org/installer | php
 sudo mv composer.phar /usr/local/bin/composer
 
